@@ -1,0 +1,408 @@
+body{
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+h3{
+    font-size: 0.8em;
+}
+
+h4{
+    margin: 0;
+}
+
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    height: 10%;
+    background-color: white;
+    padding-left: 3%;
+    box-shadow: 1px 1px 10px rgb(208, 208, 208);
+    z-index: 2;
+}
+
+.divLogo{
+    width: 30%;
+}
+
+#imgNav{
+    height: 50%;
+    padding-top: 5%;
+}
+
+.navHeader{
+    width: 40%;
+    padding-right: 3%;
+}
+
+.ulHeader{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.aNav{
+    text-decoration: none;
+}
+
+.liNav{
+    width: 33%;
+    text-align: center;
+    padding-top: 8%;
+    border-top: 2.5px solid white;
+}
+
+.liNav1{
+    border-top: 2.5px solid blue;
+    width: 33%;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.aNav{
+    color: blue;
+}
+
+.aNav2{
+    text-decoration: none;
+    color: black;
+}
+
+.sousHeader{
+    margin-top: 10%;
+    padding-left: 3%;
+}
+
+.titre_sousheader{
+    margin-bottom: 2.5%;
+}
+
+.form_recherche{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 2.5%;
+}
+
+.icon_recherche{
+    background: #80808024;
+    border-radius: 10px 0 0 10px;
+    width: 11%;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4.1%;
+}
+
+.ville_recherche{
+    padding-left: 4%;
+    font-size: 1.1em;
+    border: 1px solid #80808024;
+    height: 90%;
+    width: 52%;
+    margin-left: -1%;
+}
+
+.boutton_recherche{
+    background: rgb(0 89 252);
+    font-size: 1.1em;
+    border: 2px solid rgb(0 89 252);
+    border-radius: 0 10px 10px 0;
+    margin-left: -2%;
+    width: 31%;
+    height: 98%;
+    color: white;
+}
+
+/* ---------- Filtres ---------- */
+
+.filtres{
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.div_filtres{
+    margin-right: 2%;
+}
+
+.p_filtres1{
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.p_filtres2{
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.icon_filtres{
+    color: #0059fc;
+}
+.div_filtres{
+    display: flex;
+    border: 2px solid #8080806e;
+    border-radius: 50px;
+}
+
+.span_filtre1, .span_filtre2, .span_filtre3, .span_filtre4{
+    display: flex;
+    background-color: #c3dcfb;
+    width: 3em;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    transform: scale(1.08);
+}
+
+.boutton_filtre1, .boutton_filtre2, .boutton_filtre3, .boutton_filtre4{
+    border: none;
+    background-color: #ffffff00;
+    font-size: 1.2em;
+}
+
+.icon_p_filtres{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+    border: 1px solid #8080806e;
+    border-radius: 100%;
+    width: 1.5em;
+    height: 1.5em;
+    color: #0059fc;
+}
+
+/* ---------- Hébergements ---------- */
+
+.divHebergements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 4%;
+}
+
+.Hebergements{
+    width: 28.8%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 1.25em;
+    height: 12em;
+    box-shadow: 1px 1px 10px rgb(208, 208, 208);
+}
+
+.Hebergements h3, p, .divStar{
+    margin: 0;
+}
+
+.img_heb{
+    width: 100%;
+    height: 7em;
+    border-radius: 1em 1em 0 0;
+    object-fit: cover;
+}
+
+.sectionHebergements{
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+}
+
+.allHebergements{
+    width: 67%;
+    background-color: #80808024;
+    border-radius: 20px;
+}
+
+.Heb1, .Heb2, .Heb4, .Heb5{
+    margin-right: 4%;
+    margin-bottom: 4%;
+}
+
+.Heb3, .Heb6{
+    margin-bottom: 4%;
+}
+
+.titleHebergements{
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+.p_hebergements{
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+/* ---------- Hébergements Populaires ---------- */
+
+.allPopulaire{
+    width: 30%;
+    background: #80808024;
+    border-radius: 20px;
+    margin-left: 3%;
+}
+
+.titre_Populaire{
+    display: flex;
+    margin: 8%;
+    margin-top: 12%;
+    justify-content: space-between;
+}
+
+.fa-chart-line{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Heb_populaire{
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    border-radius: 1.25em;
+    margin-bottom: 8%;
+    height: 9em;
+    box-shadow: 1px 1px 10px rgb(208, 208, 208);
+}
+
+.div_img_pop{
+    width: 40%;
+}
+
+.img_pop{
+    border-radius: 1em 0em 0em 1em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.div_info{
+    margin-left: 2%;
+}
+
+.div_hebergements{
+    margin: 8%;
+}
+
+.divStar{
+    font-size: 0.5em;
+}
+
+/* ---------- Activités ----------- */
+
+.section_activités{
+    margin: 5% 3% 5% 3%;
+}
+
+.acti_h2{
+    margin-bottom: 3%;
+}
+
+.allActivités{
+    display: flex;
+    height: 28em;
+}
+
+.Activités{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.div_titre_act{
+    margin-top: 5%;
+    margin-left: 7.5%;
+}
+
+.acti_1, .db_acti1, .acti_4, .db_acti2{
+    width: 22.75%;
+}
+
+.acti_1, .db_acti1, .acti_4{
+    margin-right: 3%;
+}
+
+.db_acti1, .db_acti2, .acti_1, .acti_4{
+    height: 28em;
+}
+
+.div_img_act1, .div_img_act4{
+    height: 87%;
+}
+
+
+.div_img_act5, .div_img_act6{
+    height: 72.5%;
+}
+
+.img_act1, .img_act2, .img_act3, .img_act4, .img_act5, .img_act6{
+    height: 100%;
+    object-fit: cover;
+}
+
+.acti_1, .acti_2, .acti_3, .acti_4, .acti_5, .acti_6{
+    box-shadow: 1px 1px 10px rgb(208, 208, 208);
+}
+
+.acti_2{
+    height: 15.50em;
+    margin-bottom: 2em;
+}
+
+.div_img_act2{
+    height: 79%;
+}
+
+.acti_3{
+    height: 10.50em;
+}
+
+.div_img_act3{
+    height: 65%;
+}
+
+.acti_5{
+    height: 13em;
+    margin-bottom: 2em;
+}
+
+.acti_6{
+    height: 13em;
+}
+
+.img_act{
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    display: flex;
+    background-color: #80808024;
+    width: 100%;
+}
+
+.div_footer{
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.div_footer1{
+    margin-left: 3%;
+}
+
+.h3_footer{
+    font-size: 1.3em;
+}
+
+.p_footer{
+    font-size: 1.1em;
+    margin-bottom: 5%;
+}
