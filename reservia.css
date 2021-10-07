@@ -1,13 +1,20 @@
+@font-face
+{
+	font-family: 'Raleway-Bold';
+		src: url('./Raleway/static/Raleway-Bold.ttf') format('truetype');
+}
+
 body{
     margin: 0;
 }
 
 h2{
     margin: 0;
+    font-family: 'Raleway-Bold', arial;
 }
 
 h3{
-    font-size: 0.8em;
+    font-size: 1.1em;
 }
 
 h4{
@@ -61,14 +68,14 @@ h4{
 }
 
 .liNav1{
-    border-top: 2.5px solid blue;
+    border-top: 2.5px solid #0065FC;
     width: 33%;
     text-align: center;
     padding-top: 8%;
 }
 
 .aNav{
-    color: blue;
+    color: #0065FC;
 }
 
 .aNav2{
@@ -92,7 +99,7 @@ h4{
 }
 
 .icon_recherche{
-    background: #80808024;
+    background: #F2F2F2;
     border-radius: 10px 0 0 10px;
     width: 11%;
     text-align: center;
@@ -103,7 +110,7 @@ h4{
 .ville_recherche{
     padding-left: 4%;
     font-size: 1.1em;
-    border: 1px solid #80808024;
+    border: 1px solid #F2F2F2;
     height: 90%;
     width: 52%;
     margin-left: -1%;
@@ -135,12 +142,14 @@ h4{
     display: flex;
     align-items: center;
     margin-right: 2%;
+    font-family: 'Raleway-ExtraLight', arial;
 }
 
 .p_filtres2{
     margin-bottom: 2%;
     display: flex;
     align-items: center;
+    font-family: 'Raleway-ExtraLightItalic', arial;
 }
 
 .icon_filtres{
@@ -148,7 +157,7 @@ h4{
 }
 .div_filtres{
     display: flex;
-    border: 2px solid #8080806e;
+    border: 2px solid #F2F2F2;
     border-radius: 50px;
 }
 
@@ -167,6 +176,8 @@ h4{
     border: none;
     background-color: #ffffff00;
     font-size: 1.2em;
+    margin-right: 10px;
+    margin-left: 5px;
 }
 
 .icon_p_filtres{
@@ -174,7 +185,7 @@ h4{
     justify-content: center;
     align-items: center;
     margin-right: 2%;
-    border: 1px solid #8080806e;
+    border: 1px solid #F2F2F2;
     border-radius: 100%;
     width: 1.5em;
     height: 1.5em;
@@ -191,7 +202,7 @@ h4{
 }
 
 .Hebergements{
-    width: 28.8%;
+    width: 29.45%;
     background-color: white;
     padding: 5px;
     border-radius: 1.25em;
@@ -199,9 +210,7 @@ h4{
     box-shadow: 1px 1px 10px rgb(208, 208, 208);
 }
 
-.Hebergements h3, p, .divStar{
-    margin: 0;
-}
+
 
 .img_heb{
     width: 100%;
@@ -218,7 +227,7 @@ h4{
 
 .allHebergements{
     width: 67%;
-    background-color: #80808024;
+    background-color: #F2F2F2;
     border-radius: 20px;
 }
 
@@ -239,13 +248,14 @@ h4{
 .p_hebergements{
     font-weight: bold;
     padding-top: 2%;
+    font-family: 'Raleway-ExtraLight', arial;
 }
 
 /* ---------- Hébergements Populaires ---------- */
 
 .allPopulaire{
     width: 30%;
-    background: #80808024;
+    background: #F2F2F2;
     border-radius: 20px;
     margin-left: 3%;
 }
@@ -276,6 +286,10 @@ h4{
     width: 40%;
 }
 
+.div_img_pop_2{
+    width: 60%;
+}
+
 .img_pop{
     border-radius: 1em 0em 0em 1em;
     width: 100%;
@@ -283,8 +297,24 @@ h4{
     object-fit: cover;
 }
 
-.div_info{
-    margin-left: 2%;
+.div_descriptif{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.div_descriptif h3{
+    margin-top: 3%;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+.div_descriptif p{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.divStar_pop{
+    margin-top: 36%;
 }
 
 .div_hebergements{
@@ -292,7 +322,52 @@ h4{
 }
 
 .divStar{
-    font-size: 0.5em;
+    font-size: 0.55em;
+}
+
+.span_€{
+    font-weight: bold;
+}
+/* ---------- 3 Etoiles ----------- */
+
+.star4_1, .star4_2, .star4_3{
+    color: #0065FC;
+}
+
+/* ---------- 4 Etoiles ----------- */
+
+.star1_1, .star1_2, .star1_3, .star1_4{
+    color: #0065FC;
+}
+.star3_1, .star3_2, .star3_3, .star3_4{
+    color: #0065FC;
+}
+.star5_1, .star5_2, .star5_3, .star5_4{
+    color: #0065FC;
+}
+.star8_1, .star8_2, .star8_3, .star8_4{
+    color: #0065FC;
+}
+.star9_1, .star9_2, .star9_3, .star9_4{
+    color: #0065FC;
+}
+
+/* ---------- 5 Etoiles ----------- */
+
+.star2_1, .star2_2, .star2_3, .star2_4, .star2_5{
+    color: #0065FC;
+}
+.star6_1, .star6_2, .star6_3, .star6_4, .star6_5{
+    color: #0065FC;
+}
+.star7_1, .star7_2, .star7_3, .star7_4, .star7_5{
+    color: #0065FC;
+}
+
+/* ---------- Etoiles vides ----------- */
+
+.star1_5, .star3_5, .star4_4, .star4_5, .star5_5, .star8_5, .star9_5{
+    color:#8080803d;
 }
 
 /* ---------- Activités ----------- */
@@ -385,13 +460,14 @@ h4{
 
 footer{
     display: flex;
-    background-color: #80808024;
+    background-color: #F2F2F2;
     width: 100%;
 }
 
 .div_footer{
     margin-right: 15%;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
+    margin-top: 1.5%;
 }
 
 .div_footer1{
@@ -405,4 +481,5 @@ footer{
 .p_footer{
     font-size: 1.1em;
     margin-bottom: 5%;
+    font-family: 'Raleway-ExtraLight', arial;
 }
