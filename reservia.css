@@ -167,7 +167,7 @@ h4
 
 .boutton_recherche
     {
-        background: rgb(0 89 252);
+        background: #0059FC;
         font-size: 1.1em;
         border: 2px solid rgb(0 89 252);
         border-radius: 0 10px 10px 0;
@@ -180,7 +180,7 @@ h4
 .boutton_recherche2
     {
         display: none;
-        background: rgb(0 89 252);
+        background: #0059FC;
         font-size: 1.1em;
         border: 2px solid rgb(0 89 252);
         border-radius: 10px 10px 10px 10px;
@@ -1116,5 +1116,13 @@ footer
     .div_img_pop_2
     {
         width: 90%;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1282px)
+{
+    .margin1
+    {
+        margin-bottom: 1%!important;
     }
 }
