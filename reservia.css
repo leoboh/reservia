@@ -90,12 +90,16 @@ h4
     {
         width: 15%;
         text-align: center;
-        border-top: 3px solid;
-        padding-top: 40px;
+        padding-top: 43px;
     }
-.aNav
+.a-nav, .aNavBold
     {
         text-decoration: none;
+    }
+
+.aNavBold
+    {
+        color: #0065FC;
     }
 
 .liNav
@@ -109,21 +113,14 @@ h4
 
 .liNav1
     {
-        border-top: 2.5px solid #0065FC;
         width: 33%;
         text-align: center;
         padding-top: 8%;
         font-size: 0.9em;
     }
 
-.aNav
+.aNav2, .a_nav1
     {
-        color: #0065FC;
-    }
-
-.aNav2
-    {
-        text-decoration: none;
         color: black;
     }
 
@@ -218,6 +215,9 @@ h4
     {
         margin-right: 2%;
         margin-bottom: 2%;
+        display: flex;
+        border: 2px solid #F2F2F2;
+        border-radius: 50px;
     }
 
 .p_filtres1
@@ -239,13 +239,6 @@ h4
 .icon_filtres
     {
         color: #0059fc;
-    }
-
-.div_filtres
-    {
-        display: flex;
-        border: 2px solid #F2F2F2;
-        border-radius: 50px;
     }
 
 .span_filtre1, .span_filtre2, .span_filtre3, .span_filtre4
@@ -328,7 +321,7 @@ h4
         object-fit: cover;
     }
 
-.sectionHebergements
+#sectionHebergements
     {
         margin-left: 3%;
         margin-right: 3%;
@@ -515,7 +508,7 @@ h4
 
 /* ---------- Activités ----------- */
 
-.section_activités
+#section_activités
     {
         margin: 5% 3% 5% 3%;
     }
@@ -657,183 +650,8 @@ footer
         font-family: 'Raleway-ExtraLight', arial;
     }
 
-@media screen and (max-width: 310px)
+@media screen and (max-width: 420px)
 {
-    .sousHeader
-    {
-        text-align: center;
-    }
-    .filtres
-    {
-        display: block;
-    }
-    .div_pack_filtres
-    {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .titre_Populaire
-    {
-        margin-top: 9%;
-    }
-    .sectionHebergements
-    {
-        flex-direction: column-reverse;
-        margin: 0;
-    }
-    .allPopulaire
-    {
-        width: 100%;
-        margin: 0;
-        border-radius: 0;
-    }
-    .div_img_pop_2, .div_img_pop
-    {
-        width: 60%;
-    }
-    .allHebergements
-    {
-        width: 100%;
-        border-radius: 0;
-        background: none;
-    }
-    .a_block_href_Heb
-    {
-        width: 100%;
-    }
-    .divHebergements
-    {
-        flex-direction: column;
-    }
-    .Heb_populaire
-    {
-        height: 150px;
-    }
-    .Hebergements
-    {
-        width: auto;
-    }
-    .Heb1, .Heb2, .Heb3, .Heb4, .Heb5, .Heb6
-    {
-        margin-right: 0;
-        height: 200px;
-    }
-    .img_heb
-    {
-        height: 130px;
-    }
-    .div_descriptif
-    {
-        width: 88%;
-        display: flex;
-        flex-direction: column;
-    }
-    .div_descriptif h3
-    {
-        font-size: 1em;
-        margin-top: 5px;
-    }
-    .div_descriptif p
-    {
-        margin-top: 5px;
-        margin-bottom: 0;
-    }
-    .allActivités
-    {
-        height: 100%;
-        flex-direction: column;
-    }
-    .a_block_href_act1, .a_block_href_act4, .db_acti1, .db_acti2
-    {
-        width: 100%;
-    }
-    .acti_1, .db_acti1, .acti_4, .db_acti2
-    {
-        width: 100%;
-        margin-right: 0;
-    }
-    .acti_1, .acti_2, .acti_3, .acti_4, .acti_5, .acti_6
-    {
-        margin-bottom: 4%;
-        height: 200px;
-    }
-    .db_acti1
-    {
-        height: auto;
-    }
-    .div_img_act
-    {
-        height: 75%;
-    }
-    .div_titre_act
-    {
-        margin-top: 15px;
-    }
-    footer
-    {
-        flex-direction: column;
-    }
-    .div_footer
-    {
-        width: auto;
-        margin: 0 4% 0 4%;
-    }
-    .liNav_none
-    {
-        display: none;
-    }
-    .liNav2_none
-    {
-        width: 50%;
-        text-align: center;
-        border-bottom: 4px solid #0065FC;
-        padding: 10px;
-    }
-    .liNav3_none
-    {
-        width: 50%;
-        text-align: center;
-        border-bottom: 4px solid #F2F2F2;
-        padding: 10px;
-    }
-    .a_Nav
-    {
-        text-decoration: none;
-        color: #0065FC;
-        font-family: 'Raleway-Regular', arial!important;
-    }
-    .a_Nav2
-    {
-        text-decoration: none;
-        color: black;
-        font-family: 'Raleway-Regular', arial!important;
-    }
-    .form_recherche
-    {
-        display: flex;
-    }
-    .boutton_recherche
-    {
-        display: none;
-    }
-    .boutton_recherche2
-    {
-        display: block;
-    }
-    .ville_recherche
-    {
-        width: 40%;
-    }
-    .section_activités
-    {
-        margin: 15% 3% 5% 3%;
-    }
-    .navHeader
-    {
-        display: flex;
-        flex-grow: 1;
-        flex-wrap: wrap;
-    }
     .imgNav
     {
         width: 100px;
@@ -843,33 +661,16 @@ footer
         margin-left: 4%;
         margin-top: 20px;
     }
-    .a_nav
-    {
-        width: 50%;
-    }
-    .a_nav1
-    {
-        text-align: center;
-        padding-bottom: 10px;
-        border-bottom: 3px solid #0065FC;
-        border-top: none;
-    }
-    .a_nav2
-    {
-        text-align: center;
-        padding-bottom: 10px;
-        border-bottom: 3px solid #F2F2F2;
-    }
-    .a_nav3
+    .form_recherche
     {
         width: auto;
-        order: -1;
-        text-align: end;
-        margin-right: 4%;
-        margin-top: 30px;
+    }
+    .white_space
+    {
+        white-space: nowrap;
     }
 }
-@media screen and (min-width: 311px) and (max-width: 767px)
+@media screen and (min-width: 0px) and (max-width: 768px)
 {
     .filtres
     {
@@ -884,7 +685,7 @@ footer
     {
         margin-top: 9%;
     }
-    .sectionHebergements
+    #sectionHebergements
     {
         flex-direction: column-reverse;
         margin: 0;
@@ -1022,7 +823,7 @@ footer
     {
         display: block;
     }
-    .section_activités
+    #section_activités
     {
         margin: 15% 3% 5% 3%;
     }
@@ -1051,7 +852,7 @@ footer
     {
         text-align: center;
         padding-bottom: 10px;
-        border-bottom: 3px solid #0065FC;
+        border-bottom: 3px solid #F2F2F2;
         border-top: none;
     }
     .a_nav2
@@ -1067,9 +868,14 @@ footer
         margin-right: 4%;
         margin-top: 30px;
     }
+    .a-nav:hover
+    {
+        border-bottom: 3px solid #0065FC;
+        color: #0065FC;
+    }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px)
+@media screen and (min-width: 769px) and (max-width: 992px)
 {
     .filtres
     {
@@ -1124,5 +930,23 @@ footer
     .margin1
     {
         margin-bottom: 1%!important;
+    }
+}
+
+@media screen and (min-width: 769px)
+{
+    .a-nav:hover
+    {
+        box-shadow: 0 2px 0 inset;
+        color: #0065FC;
+    }
+}
+
+@media screen and (min-width: 1600px)
+{
+    body
+    {
+        margin: auto;
+        width: 60%;
     }
 }
